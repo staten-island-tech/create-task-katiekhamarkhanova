@@ -2,13 +2,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/svg+xml" href="/img/cat.png" />
+    <link rel="icon" type="image/svg+xml" href="/img/madlibsicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cat Facts</title>
+    <title>Random Madlibs</title>
 </head>
 <body>
-    <h1>Random Cat Facts</h1>
-    <button id="factsButton">Click me to get a random cat fact!</button>
+    <h1>Random Madlibs</h1>
+    <div id ="container-box">
+        <form action="" id="form">
+            <div id = "everyForm">
+            <label for="enterWord" id="label">Enter word:</label>
+            <input type="text" name="word" class="user-word" id="input"/>
+
+            <div class = "seperateButton">
+            <input type="submit" value="Click to Submit" id="submit"/>
+        </div>
+        </div>
+        </form>
+    </div>
     <script type="module" src="/main.js"></script>
 </body>
 </html>
