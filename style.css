@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(240, 233, 233);
+    text-align: center;
+    margin: 1.8rem;
+}
+#submit {
+    margin: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0.4rem;
+}
