@@ -4,22 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/public/madlibsicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random Madlibs</title>
+    <title>Wish List</title>
   </head>
   <body>
-        <h1>Random Madlibs Generator</h1>
-        <div id ="container-box">
-            <form action="" id="form">
-                <div id = "everyForm">
-                <label for="enterWord" id="label">Enter word:</label>
-                <input type="text" name="word" class="user-word" id="input"/>
-                
-                <div class = "seperateButton">
-                <input type="submit" value="Submit" id="submit"/>
-            </div>
-            </div>
-            </form>
-        </div>
+      <h1>Create a Wish List</h1>
+      <div id ="container-box">
+        <form action="" id="budgetForm">
+          <div id = "budgetInput">
+            <label for="enterBudget" id="label">Budget:</label>
+            <input type="number" name="listBudget" class="budget" id="input"/>
+            <input type="submit" value="Submit Budget" id="submit"/>
+          </div>
+        </form>
+        <form action="" id="itemForm">
+          <label for="enterItem" id="label">Enter item:</label>
+          <input type="text" name="itemName" class="item" id="input"/>
+          <div id = "priceInput">
+            <label for="enterPrice" id="label">Price:</label>
+            <input type="number" name="itemPrice" class="price" id="input"/>
+          </div>
+          <div class = "submitItem">
+            <input type="submit" value="Submit an Item" id="submit"/>
+          </div>
+        </form>
+      </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
