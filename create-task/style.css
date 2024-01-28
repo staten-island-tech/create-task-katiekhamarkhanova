@@ -1,23 +1,18 @@
 :root {
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  background-image: url("/public/kirb.jpg");
+  background-image: url("/public/melody.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  color: rgb(182, 93, 93);
 }
-
 body {
   font-family: 'Roboto Mono', monospace;
-  background-color: rgb(247, 220, 211);
+  background-color: rgb(253, 230, 230);
   max-width: 49%;
   border: 6px solid;
-  border-color: rgb(247, 226, 202);
+  border-color: rgb(255, 255, 255);
   text-align: center;
   margin: 1.8rem;
-  margin-left: 4rem;
+  margin-left: 25%;
   margin-top: 3rem;
 }
 #submit {

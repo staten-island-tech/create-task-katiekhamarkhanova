@@ -19,7 +19,7 @@ function displayItems(wishItem) {
     document.querySelector("#container-box").insertAdjacentHTML(
         "beforeend",
         `<h2>- Item: ${wishItem.item}</h2>
-        <h3>Price: ${wishItem.price}</h3>`
+        <h3>Price: $ ${wishItem.price}</h3>`
     );
 }
 function budgetList() {
