@@ -14,14 +14,7 @@ function addWishListItem (item, price) {
     wishList.push(wishItem);
     displayItems(wishItem);
     budgetList();
-}
-function displayItems(wishItem) {
-    document.querySelector("#container-box").insertAdjacentHTML(
-        "beforeend",
-        `<h2>- Item: ${wishItem.item}</h2>
-        <h3>Price: $ ${wishItem.price}</h3>`
-    );
-}
+};
 function budgetList() {
     budget = Number(document.querySelector(".budget").value);
     totalPrice = 0;
@@ -40,8 +33,14 @@ function budgetList() {
             `<h2>You are right on budget! </h2>`
         );
     }
-}
-
+};
+function displayItems(wishItem) {
+    document.querySelector("#container-box").insertAdjacentHTML(
+        "beforeend",
+        `<h2>- Item: ${wishItem.item}</h2>
+        <h3>Price: $ ${wishItem.price}</h3>`
+    );
+};
 document.querySelector("#itemForm").addEventListener("submit", function (event) {
     event.preventDefault();
     addWishListItem(item.value, price.value);
